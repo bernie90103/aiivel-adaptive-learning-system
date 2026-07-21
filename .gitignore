@@ -1,0 +1,44 @@
+# MATLAB generated files and caches
+*.asv
+*.autosave
+*.bak
+*.m~
+*.mex*
+*.slxc
+*.mlproj
+*.prj.user
+codegen/
+slprj/
+work/
+resources/
+derived/
+
+# Local input data, recordings, and learner results
+data/
+videos/
+video/
+recordings/
+results/
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+*.xlsx
+*.xls
+*.csv
+
+# Training data and model artifacts
+models/
+training-data/
+*.mat
+*.caffemodel
+*.prototxt
+*.binaryproto
+*.onnx
+*.h5
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
