@@ -6,6 +6,8 @@ An archived MATLAB App Designer project that adapts English listening practice u
 
 ![AIiVEL App Designer interface](assets/app-preview.png)
 
+**Code review:** GitHub cannot render App Designer's `.mlapp` package directly. The same final application source is therefore exported in readable form at [`src/AiIVEL_fianl.m`](src/AiIVEL_fianl.m).
+
 ## What it demonstrates
 
 - **Adaptive practice flow** — presents level-based English video exercises and changes the next activity based on the learner's progress.
@@ -25,6 +27,8 @@ The eye-state image-classification work expanded the training image set from **2
 │   └── AiIVEL.mlapp          # Final MATLAB App Designer application
 ├── assets/
 │   └── app-preview.png       # Interface preview exported from the app
+├── src/
+│   └── AiIVEL_fianl.m        # Readable export of the App Designer source
 ├── README.md
 ├── THIRD_PARTY_NOTICES.md
 └── .gitignore
@@ -65,4 +69,3 @@ The repository intentionally excludes:
 ## Attribution
 
 Parts of the original development environment used MathWorks example material and MATLAB tooling. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the applicable attribution and usage notes.
-
